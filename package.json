@@ -1,0 +1,22 @@
+{
+  "name": "mocha-ddt",
+  "version": "0.0.2",
+  "description": "Data driven testing using Mocha.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Nick",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "deasync": "^0.1.14",
+    "deepmerge": "^2.2.1",
+    "file-system": "^2.2.2",
+    "mocha": "^5.2.0",
+    "path": "^0.12.7",
+    "request": "^2.88.0",
+    "uniqid": "^5.0.3",
+    "winston": "^3.1.0"
+  }
+}
