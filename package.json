@@ -4,7 +4,7 @@
   "description": "Data driven testing using Mocha.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "node ./test/test_main.js"
   },
   "author": "Nick",
   "license": "ISC",

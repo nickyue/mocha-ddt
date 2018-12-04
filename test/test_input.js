@@ -1,6 +1,7 @@
 const mochaddt = require('../index');
+const path = require('path');
 
-mochaddt.setTestDir('./tests_for_test');
+mochaddt.setTestDir(path.join(__dirname, './tests_for_test'));
 
 var tests = {
     "able to provide single object as an input to tests": function() {
@@ -24,7 +25,4 @@ var tests = {
     }
 };
 
-Object.keys(tests).forEach(function (test) {
-    console.log(test);
-    tests[test]();
-});
+module.exports = tests;
