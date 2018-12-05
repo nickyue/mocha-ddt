@@ -2,6 +2,8 @@
 
 > Data-Driven-Testing for Mocha
 
+[![Build Status](https://travis-ci.org/nickyue/mocha-ddt.svg?branch=master)](https://travis-ci.org/nickyue/mocha-ddt.svg?branch=master) 
+
 ## Install and use
 
 ```
