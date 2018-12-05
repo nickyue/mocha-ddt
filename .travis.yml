@@ -5,7 +5,7 @@ before_script:
  - npm install -g gulp
  - npm install -g istanbul@1.0.0-alpha.2
 script:
- - gulp
+ - gulp test
 cache:
   directories:
     - "node_modules"
