@@ -6,7 +6,8 @@ const mochaddt = require('../index');
 const assert = require('chai').assert;
 
 mochaddt.setTestDir(path.join(__dirname, './test-folder-structure'));
-//mochaddt.setTestDir('./test-folder-structure');
+//mochaddt.setTestDir('test-folder-structure');
+
 var tests = {
     "addTests should work for nested folder structure": function() {
         mochaddt.addTests(/should run/, {});

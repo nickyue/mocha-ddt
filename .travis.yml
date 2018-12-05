@@ -1,6 +1,11 @@
 language: node_js
 node_js:
  - "stable"
+before_script:
+ - npm install -g gulp
+ - npm install -g istanbul@1.0.0-alpha.2
+script:
+ - gulp test
 cache:
   directories:
     - "node_modules"
