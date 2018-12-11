@@ -3,7 +3,7 @@
 > Data-Driven-Testing for Mocha
 
 [![Build Status](https://travis-ci.org/nickyue/mocha-ddt.svg?branch=master)](https://travis-ci.org/nickyue/mocha-ddt.svg?branch=master) 
-
+[![Coverage Status](https://coveralls.io/repos/github/nickyue/mocha-ddt/badge.svg)](https://coveralls.io/github/nickyue/mocha-ddt)
 ## Install and use
 
 ```
