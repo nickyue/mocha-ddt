@@ -1,7 +1,20 @@
 {
   "name": "mocha-ddt",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Data driven testing using Mocha.",
+  "keywords": [
+    "mocha",
+    "ddt",
+    "tdd",
+    "bdd",
+    "data driven",
+    "api",
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nickyue/mocha-ddt"
+  },
   "main": "index.js",
   "scripts": {
     "test": "node ./test/test_main.js"
@@ -26,5 +39,11 @@
     "gulp-install": "^1.1.0",
     "gulp-istanbul": "^1.1.3",
     "gulp-run-command": "0.0.9"
+  },
+  "homepage": "https://github.com/nickyue/mocha-ddt",
+  "author": "Nick Yue <nickyuezhongqi@gmail.com>",
+  "directories": {
+    "lib": "./lib",
+    "test": "./test"
   }
 }
