@@ -6,7 +6,7 @@ var run = require('gulp-run-command').default;
 
 gulp.task('test', run('istanbul cover ./test/test_main.js'));
 
-gulp.task('coverage', ['test'], run('node ./node_modules/coveralls/bin/coveralls.js < ./coverage/lcov.info'));
+gulp.task('coverage', ['test'], run('cat ./coverage/lcov.info | ./node_modules/.bin/coveralls'));
 
 gulp.task('install', function() {
     gulp.src(['./package.json'])
