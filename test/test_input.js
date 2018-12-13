@@ -1,7 +1,7 @@
 const mochaddt = require('../index');
 const path = require('path');
 
-mochaddt.setTestDir(path.join(__dirname, './tests_for_test'));
+mochaddt.setTestDir(path.join(__dirname, './test-array'));
 
 var tests = {
     "able to provide single object as an input to tests": function() {
