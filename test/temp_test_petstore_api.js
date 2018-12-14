@@ -13,6 +13,20 @@ var tests = {
                 status: "placed"
             }
         });
+        mochaddt.addTests(/POST \/store\/order will create an order with correct id/, {
+            environment: {
+                schemes: "https"
+            },
+            input: {
+                id: "2"
+            }
+        });
+        mochaddt.addTests(/GET \/pet\/:petId/, {
+            environment: {
+                schemes: "https"
+            },
+            input: {}
+        })
         mochaddt.run();
     }
 }

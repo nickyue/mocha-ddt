@@ -14,10 +14,10 @@ function indent(x) {
 var stats = {
     pass: 0,
     fail: 0
-}
+};
 
 allFiles.forEach(function (file) {
-    if (file.substr(-3) === '.js' && file !== "test_main.js") {
+    if (file.substr(-3) === '.js' && file !== "test_main.js" && file.substr(0, 4) === 'test') {
         // Is JS file
         console.log(file);
         var tests = require(path.join(__dirname, file));

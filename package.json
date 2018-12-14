@@ -19,7 +19,7 @@
   "scripts": {
     "test": "node ./test/test_main.js"
   },
-  "author": "Nick",
+  "author": "Nick Yue <nickyuezhongqi@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "chai": "^4.2.0",
@@ -41,7 +41,6 @@
     "gulp-run-command": "0.0.9"
   },
   "homepage": "https://github.com/nickyue/mocha-ddt",
-  "author": "Nick Yue <nickyuezhongqi@gmail.com>",
   "directories": {
     "lib": "./lib",
     "test": "./test"
